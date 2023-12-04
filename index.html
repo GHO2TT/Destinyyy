@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9d3b02acdb.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+    <title>Shlenky Shoes</title>
+</head>
+
+<!-- bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen -->
+
+<body class="font-[Poppins]">
+
+    <header class="decoration-transparent py-3">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
+            <div class="">
+                <button class="bg-[#FF7F7F] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Join Us</button>
+            </div>
+
+            <div class=" nav-links md:static absolute bg-white md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto w-full flex item-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li><a class="hover:text-gray-500" href="#">About</a></li>
+                    <li><a class="hover:text-gray-500" href="#">Login</a></li>
+                    <li><a class="hover:text-gray-500" href="#">Pricing</a></li>
+                </ul>
+            </div>
+
+            <div class="flex item-center gap-6">
+                <h1 class="text-3xl py-1 font-semibold text-gray-900">Shlenky Shoes</h1>
+            
+            <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <div class="first1 bg-gray-900 h-35 text-center text-white">
+        <h1 class="px-9 text-3xl py-8 font-semibold">Shlenky Shoes</h1>
+        <p class="top-p">We provide quality shoes for quality people</p>
+    </div>
+
+
+    <section class="px-20">
+
+        <div class="grid grid-rows-1 grid-flow-col mb-8">
+        
+            <div class="row-span-2 "> <img class="topsfirstright1" alt="" src="Assets/CSS/images/OIP.jfif" srcset=""></div>
+        
+            <div class="row-span-2 pt-9 pr-9 pl-9">
+                <h1 class="text-3xl font-13 py-8 font-semibold text-gray-900">Upgrade Your Style with Our Exclusive Shoe Collection</h1>
+                <p class="pb-5 pr-9">Looking for the perfect pair of shoes to elevate your style? Look no further! Our exclusive shoe collection offers a wide range of stylish and comfortable footwear that will take your fashion game to the next level. Whether you’re in need of casual sneakers, elegant heels, or versatile boots, we have the perfect pair for every occasion.</p>
+                <button class="bg-gray-400 p-3 text-gray-900 font-semibold">Check Inventory</button>
+            </div>
+        
+        </div>
+        
+        <hr>
+
+        <div class="grid grid-rows-1 grid-flow-col mb-8">
+
+            <div class="row-span-2 pt-9 pr-9 pl-9">
+                <h1 class="text-3xl py-8 font-semibold text-gray-900 mt-6">Aeroflex 5000</h1>
+                <p class="pb-5 pr-9 mt-6">The “Aeroflex 5000” is a revolutionary new shoe designed for both style and performance. This cutting-edge footwear combines advanced technology with sleek aesthetics to provide the ultimate experience for the modern individual.
+
+                </p>
+                <button class="bg-gray-400 p-3 text-gray-900 font-semibold mt-6">Inspect Item</button>
+            </div>
+
+            <div class="row-span-2 "> <img class="tops firstright2" src="Assets/CSS/images/Run.jfif" alt="" srcset=""></div>
+
+            
+        </div>
+
+        <hr>
+
+        <div class="grid grid-rows-1 grid-flow-col mb-8">
+            <div class="row-span-2 pt-9 pr-9 pl-9">
+                <h1 class="text-3xl py-8 font-semibold text-gray-900 mt-6">Glock 69 Bold</h1>
+                <p class="pb-5 pr-9 mt-6">The Glock 69 Bold is a statement piece of footwear that exudes confidence and boldness. With its sleek design and durable build, this sneaker is perfect for those who dare to be different and push the limits. The Glock 69 Bold features a black and silver color scheme with bold, eye-catching accents that are sure to turn heads.</p>
+                <button class="bg-gray-400 p-3 text-gray-900 font-semibold mt-6">Inspect Item</button>
+            </div>
+
+            <div class="row-span-2"> <img class="tops firstright3" src="Assets/CSS/images/g2.jfif" alt="" srcset=""></div>
+        </div>
+
+    </section>
+
+    <div class="second1 text-center text-white py-20 bg-gradient-to-r from-blue-500 via-black-700 to-red-500">
+        <h1 class="bottom-h px-9 text-3xl py-8 font-semibold text-black mb-0">THE SHOE PLUG THAT NEVER RUNS DRY</h1>
+        <p class="bottom-p text-black mt-0">Click on the link below to inspect more shoes !!
+            </p>
+
+            <br>
+    
+            <button class="bg-black p-3 text-white-900 font-semibold">MORE SHOES!!</button>
+    </div>
+
+
+    </div>
+
+    <div class="center py-8">
+    <hr></div>
+
+    <div class="bottomcontainer center text-blue-800">
+        <a href="#"><i class="fa-brands fa-pinterest fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        
+        <br><br/>
+        <p>©ABRAHAM DESTINY CALEB 2023 SHLENKY SHOES. All Right Reserved</p>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="Assets/Javascript/script.js"></script>
+</body>
+</html>
